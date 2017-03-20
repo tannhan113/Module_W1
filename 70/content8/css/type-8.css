@@ -1,0 +1,43 @@
+.type-8 {
+  padding-bottom: 9.8rem;
+  padding-top: 9.8rem;
+}
+.type-8 img {
+  width: 100%;
+}
+.type-8 .lead {
+  font-size: 1.7rem;
+  margin: 2.8rem 0;
+  margin-top: 0;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #667279;
+}
+.type-8 h3 {
+  margin: 2.8rem 0 1.4rem;
+  color: #363d40;
+}
+.type-8 p {
+  font-size: 1.4rem;
+  color: #667279;
+}
+.type-8 .vc_single_image-img:hover {
+  opacity: .8;
+}
+@media (max-width: 768px) {
+  .type-8 .vc_single_image-img {
+    margin-bottom: 50px;
+  }
+  .type-8 .lead {
+    font-size: 2rem;
+    margin: 2.8rem 0;
+    margin-top: 0;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #667279;
+  }
+  .type-8 p {
+    font-size: 1.6rem;
+    color: #667279;
+  }
+}

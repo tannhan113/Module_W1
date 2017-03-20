@@ -1,0 +1,68 @@
+.text-center {
+  text-align: center;
+}
+
+.type-7 {
+  background: url('../images/bg-room.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  overflow: hidden;
+  background-attachment: fixed;
+  padding-bottom: 9.8rem;
+  padding-top: 9.8rem;
+  .white-box {
+    background: rgba(255, 255, 255, .85);
+    border-radius: 2px;
+    padding: 5.6rem;
+
+  }
+  .line{
+    border-bottom: .3rem solid #BE3A31;
+    width:50px;  
+    margin:0 auto;
+    display:inline-block;
+  }
+  h3 {
+    font-family: "Domine", serif;
+    position: relative;
+    margin: 2.8rem 0 1.4rem;
+    font-size:2.5rem;
+    }
+
+  ul {
+    &.list-unstyled {
+    margin-top:6rem;
+      li {
+        margin-bottom: 1.4rem;
+        font-size: 1.4rem;
+        font-family: 'Roboto';
+        font-weight: 300;
+        text-transform: none;
+        font-size: 1.4rem;
+
+      }
+    }
+  }
+  color: #667279;
+  @media (max-width: 768px){
+        h3{
+            color: rgba(54,61,64,1);
+            font-size: 3.5rem;
+        }
+        ul.list-unstyled li {
+            margin-bottom: 1.4rem;
+            font-size: 2rem;
+            font-family: 'Roboto';
+            font-weight: 300;
+            text-transform: none;
+        }
+        .ul{
+           
+        }
+        .padding{
+         margin-bottom:150px;
+        }
+       
+    }
+
+}
